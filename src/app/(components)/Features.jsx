@@ -27,13 +27,15 @@ export default function Features() {
   return (
     <div className="relative py-32 bg-white text-gray-800">
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 justify-between gap-24 lg:flex md:px-8">
-        <div className="max-w-xl">
+        <div className="max-w-md">
           <h3 className="text-gray-900 text-3xl font-semibold sm:text-4xl">
             Do more with less complexity
           </h3>
           <p className="mt-3 text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            congue, nisl eget molestie varius, enim ex faucibus purus.
+            Our Specialist Digital Marketing Services are designed to help
+            business owners and in-house marketing teams overcome complex growth
+            marketing challenges using best-in-class techniques to achieve
+            business growth goals.
           </p>
         </div>
         <div className="mt-12 lg:mt-0">

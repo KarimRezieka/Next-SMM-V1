@@ -8,6 +8,14 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+      setIsMenuOpen(false);
+    }
+  };
+
   return (
     <div>
       <header className="bg-white shadow-md">
@@ -16,11 +24,7 @@ export default function Navbar() {
             <div className="flex-1 md:flex md:items-center md:gap-12">
               <a className="block text-indigo-500" href="#">
                 <span className="sr-only">Home</span>
-                <img
-                  src="./images/10_h.jpg"
-                  alt="Logo"
-                  className="w-16 h-16" // Tailwind classes for width and height
-                />
+                <img src="./images/10_h.jpg" alt="Logo" className="w-16 h-16" />
               </a>
             </div>
 
@@ -28,53 +32,21 @@ export default function Navbar() {
               <nav aria-label="Global" className="hidden md:block">
                 <ul className="flex items-center gap-6 text-sm">
                   <li>
-                    <a
-                      className="block text-black transition hover:text-gray-500/75"
-                      href="#"
+                    <button
+                      className="block text-black transition hover:text-gray-500/75 cursor-pointer"
+                      onClick={() => scrollToSection("features")}
                     >
                       Features
-                    </a>
+                    </button>
                   </li>
                   <li>
-                    <a
-                      className="block text-black transition hover:text-gray-500/75"
-                      href="#"
+                    <button
+                      className="block text-black transition hover:text-gray-500/75 cursor-pointer"
+                      onClick={() => scrollToSection("services")}
                     >
                       Services
-                    </a>
+                    </button>
                   </li>
-                  {/* <li>
-                    <a
-                      className="text-black transition hover:text-gray-500/75"
-                      href="#"
-                    >
-                      History
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-black transition hover:text-gray-500/75"
-                      href="#"
-                    >
-                      Services
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-black transition hover:text-gray-500/75"
-                      href="#"
-                    >
-                      Projects
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-black transition hover:text-gray-500/75"
-                      href="#"
-                    >
-                      Blog
-                    </a>
-                  </li> */}
                 </ul>
               </nav>
 
@@ -109,53 +81,21 @@ export default function Navbar() {
           <nav className="md:hidden">
             <ul className="space-y-4 px-4 pb-4 text-sm">
               <li>
-                <a
-                  className="block text-black transition hover:text-gray-500/75"
-                  href="#"
+                <button
+                  className="block text-black transition hover:text-gray-500/75 cursor-pointer"
+                  onClick={() => scrollToSection("features")}
                 >
                   Features
-                </a>
+                </button>
               </li>
               <li>
-                <a
-                  className="block text-black transition hover:text-gray-500/75"
-                  href="#"
+                <button
+                  className="block text-black transition hover:text-gray-500/75 cursor-pointer"
+                  onClick={() => scrollToSection("services")}
                 >
                   Services
-                </a>
+                </button>
               </li>
-              {/* <li>
-                <a
-                  className="block text-black transition hover:text-gray-500/75"
-                  href="#"
-                >
-                  History
-                </a>
-              </li>
-              <li>
-                <a
-                  className="block text-black transition hover:text-gray-500/75"
-                  href="#"
-                >
-                  Services
-                </a>
-              </li>
-              <li>
-                <a
-                  className="block text-black transition hover:text-gray-500/75"
-                  href="#"
-                >
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a
-                  className="block text-black transition hover:text-gray-500/75"
-                  href="#"
-                >
-                  Blog
-                </a>
-              </li> */}
             </ul>
           </nav>
         )}

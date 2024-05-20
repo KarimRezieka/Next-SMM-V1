@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="relative z-10 max-w-lg mx-auto px-4 md:text-center md:px-8">
               <div className="max-w-xl md:mx-auto">
                 <p className="text-white text-3xl font-bold sm:text-3xl">
-                  Request a Free Consultation
+                Get Started Today !
                 </p>
               </div>
             </div>

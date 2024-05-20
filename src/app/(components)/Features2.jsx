@@ -131,12 +131,9 @@ export default function Features2() {
         <div className="relative max-w-2xl mx-auto sm:text-center">
           <div className="relative z-10">
             <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              Let’s help power your SaaS
+            What makes us?
             </h3>
-            <p className="mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              congue, nisl eget molestie varius, enim ex faucibus purus.
-            </p>
+       
           </div>
           <div
             className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]"

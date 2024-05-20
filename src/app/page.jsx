@@ -12,11 +12,15 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <Features/>
-      <CTA/>
-      <Steps/>
-      <Features2/>
-      <Footer/>
+      <div id="features">
+        <Features />
+      </div>
+      <CTA />
+      <Steps />
+      <div id="services">
+        <Features2 />
+      </div>
+      <Footer />
     </>
   );
 }
