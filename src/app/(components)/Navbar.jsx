@@ -47,6 +47,14 @@ export default function Navbar() {
                       Services
                     </button>
                   </li>
+                  <li>
+                    <button
+                      className="block font-semibold text-black transition hover:text-gray-500/75 cursor-pointer"
+                      onClick={() => scrollToSection("contact")}
+                    >
+                      Contact
+                    </button>
+                  </li>
                 </ul>
               </nav>
 
@@ -96,6 +104,14 @@ export default function Navbar() {
                   Services
                 </button>
               </li>
+              <li>
+                    <button
+                      className="block font-semibold text-black transition hover:text-gray-500/75 cursor-pointer"
+                      onClick={() => scrollToSection("contact")}
+                    >
+                      Contact
+                    </button>
+                  </li>
             </ul>
           </nav>
         )}

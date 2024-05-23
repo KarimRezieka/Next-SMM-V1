@@ -21,7 +21,9 @@ export default function Home() {
       <div id="services">
         <Features2 />
       </div>
-      <Footer2 />
+      <div id="contact">
+        <Footer2 />
+      </div>
     </>
   );
 }
