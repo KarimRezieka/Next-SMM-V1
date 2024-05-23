@@ -17,7 +17,7 @@ export default function Footer2() {
 
             <p
               href="#"
-              className="mt-8 inline-block  border-indigo-600 px-12 py-3 text-sm font-medium text-indigo-600   focus:outline-none focus:ring active:bg-indigo-500"
+              className="mt-8 inline-block  px-12 py-3 text-sm font-medium text-indigo-600   focus:outline-none focus:ring "
             >
               contact@f9agency.com
             </p>

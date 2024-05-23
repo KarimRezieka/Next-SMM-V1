@@ -22,9 +22,11 @@ export default function Navbar() {
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="flex-1 md:flex md:items-center md:gap-12">
-              <a className="block text-indigo-500" href="#">
-                <span className="sr-only">Home</span>
-                <img src="./images/logo.jpg" alt="Logo" className="w-16 h-16" />
+              <a className="block " href="#">
+                <h1 className="font-bold uppercase">
+                  <span className="text-indigo-500">F9</span>
+                  agency
+                </h1>
               </a>
             </div>
 
@@ -105,13 +107,13 @@ export default function Navbar() {
                 </button>
               </li>
               <li>
-                    <button
-                      className="block font-semibold text-black transition hover:text-gray-500/75 cursor-pointer"
-                      onClick={() => scrollToSection("contact")}
-                    >
-                      Contact
-                    </button>
-                  </li>
+                <button
+                  className="block font-semibold text-black transition hover:text-gray-500/75 cursor-pointer"
+                  onClick={() => scrollToSection("contact")}
+                >
+                  Contact
+                </button>
+              </li>
             </ul>
           </nav>
         )}
