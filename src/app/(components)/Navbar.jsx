@@ -24,7 +24,7 @@ export default function Navbar() {
             <div className="flex-1 md:flex md:items-center md:gap-12">
               <a className="block text-indigo-500" href="#">
                 <span className="sr-only">Home</span>
-                <img src="./images/10_h.jpg" alt="Logo" className="w-16 h-16" />
+                <img src="./images/logo.jpg" alt="Logo" className="w-16 h-16" />
               </a>
             </div>
 
@@ -33,7 +33,7 @@ export default function Navbar() {
                 <ul className="flex items-center gap-6 text-sm">
                   <li>
                     <button
-                      className="block text-black transition hover:text-gray-500/75 cursor-pointer"
+                      className="block font-semibold text-black transition hover:text-gray-500/75 cursor-pointer"
                       onClick={() => scrollToSection("features")}
                     >
                       Features
@@ -41,7 +41,7 @@ export default function Navbar() {
                   </li>
                   <li>
                     <button
-                      className="block text-black transition hover:text-gray-500/75 cursor-pointer"
+                      className="block font-semibold text-black transition hover:text-gray-500/75 cursor-pointer"
                       onClick={() => scrollToSection("services")}
                     >
                       Services
@@ -82,7 +82,7 @@ export default function Navbar() {
             <ul className="space-y-4 px-4 pb-4 text-sm">
               <li>
                 <button
-                  className="block text-black transition hover:text-gray-500/75 cursor-pointer"
+                  className="font-semibold block text-black transition hover:text-gray-500/75 cursor-pointer"
                   onClick={() => scrollToSection("features")}
                 >
                   Features
@@ -90,7 +90,7 @@ export default function Navbar() {
               </li>
               <li>
                 <button
-                  className="block text-black transition hover:text-gray-500/75 cursor-pointer"
+                  className="font-semibold block text-black transition hover:text-gray-500/75 cursor-pointer"
                   onClick={() => scrollToSection("services")}
                 >
                   Services
