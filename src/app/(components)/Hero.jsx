@@ -41,20 +41,20 @@ export default function Hero() {
           <div className="mt-6">
             <ul className="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
               {/* LOGO 1 */}
-              <Link href="https://www.hubspot.com/">
+              <Link href="https://zapier.com/">
                 <li>
                   <img src="/images/1.png" alt="" />
                 </li>
               </Link>
               {/* LOGO 2 */}
-              <Link href="https://theytlab.com/">
+              <Link href="https://www.hubspot.com/">
                 <li>
                   <img src="/images/2.png" alt="" />
                 </li>
               </Link>
 
               {/* LOGO 3 */}
-              <Link href="https://zapier.com/">
+              <Link href="https://theytlab.com/">
                 <li>
                   <h1 class="font-bold text-2xl">
                     THE<span class="text-green-500">YT</span>LAB

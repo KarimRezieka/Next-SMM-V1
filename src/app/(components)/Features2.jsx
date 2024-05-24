@@ -19,8 +19,8 @@ export default function Features2() {
           />
         </svg>
       ),
-      title: "SEO Optimization",
-      desc: "Enhance your website's visibility on search engines with advanced SEO techniques.",
+      title: "Social Media Content Production",
+      desc: " Creating and managing engaging digital content tailored to specific platforms and audiences to build connections and drive engagement",
     },
     {
       icon: (
@@ -61,67 +61,68 @@ export default function Features2() {
       ),
       title: "Social Media Integration",
       desc: "Effortlessly manage and schedule your social media posts across multiple platforms.",
-    },{
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M12 2c-1.306 0-2.417.835-2.829 2H3v16h18V4h-6.171C14.417 2.835 13.306 2 12 2zM7 10H5v8h2v-8zM9 6H7v12h2V6zm4 8h-2v4h2v-4zm-2-8V4h2v2h-2zm6 8h-2v4h2v-4zm-2-8V4h2v2h-2z"
-            />
-          </svg>
-        ),
-        title: "Content Management",
-        desc: "Easily create, organize, and publish engaging content across your social media channels.",
-      },
-      {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1.658 14.342l-3.198-3.198 1.415-1.415 1.783 1.784 4.576-4.576 1.414 1.414-5.99 5.991z"
-            />
-          </svg>
-        ),
-        title: "Audience Engagement",
-        desc: "Interact with your audience, respond to comments, and build meaningful relationships.",
-      },
-      {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M3 3h18v18H3zM9 3v18M15 3v18"
-            />
-          </svg>
-        ),
-        title: "Analytics and Reporting",
-        desc: "Track performance metrics, measure engagement, and generate insightful reports.",
-      },
-    
+    },
+    {
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M12 2c-1.306 0-2.417.835-2.829 2H3v16h18V4h-6.171C14.417 2.835 13.306 2 12 2zM7 10H5v8h2v-8zM9 6H7v12h2V6zm4 8h-2v4h2v-4zm-2-8V4h2v2h-2zm6 8h-2v4h2v-4zm-2-8V4h2v2h-2z"
+          />
+        </svg>
+      ),
+      title: "Content Management",
+      desc: "Easily create, organize, and publish engaging content across your social media channels.",
+    },
+    {
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1.658 14.342l-3.198-3.198 1.415-1.415 1.783 1.784 4.576-4.576 1.414 1.414-5.99 5.991z"
+          />
+        </svg>
+      ),
+      title: "Audience Engagement",
+      desc: "Interact with your audience, respond to comments, and build meaningful relationships.",
+    },
+    {
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M3 3h18v18H3zM9 3v18M15 3v18"
+          />
+        </svg>
+      ),
+      title: "Analytics and Reporting",
+      desc: "Track performance metrics, measure engagement, and generate insightful reports.",
+    },
+
     // Add more features as needed
   ];
 
@@ -131,9 +132,8 @@ export default function Features2() {
         <div className="relative max-w-2xl mx-auto sm:text-center">
           <div className="relative z-10">
             <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-            What makes us?
+              What makes us?
             </h3>
-       
           </div>
           <div
             className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]"
